@@ -1,2 +1,8 @@
 # go-geojson
-Go-GeoJson is a GeoJson Marshaller &amp; UnMarshaller that supports serializing to json and bson. It includes support for 
+Go-GeoJson is a GeoJson Marshaller and UnMarshaller that supports serializing to json and bson. This library is useful when working with 
+GeoJson datatypes in golang applications. 
+
+Supported Types includes:
+Point, MultiPoint, Polygon, MultiPolygon, LineString, MultiLineString, Geometries, Features, & FeatureCollections.
+
+It also provides functions for Distance, Contains, and CardinalDirection.
